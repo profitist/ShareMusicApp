@@ -1,0 +1,287 @@
+Index: .idea/.idea.Web/.idea/projectSettingsUpdater.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"RiderProjectSettingsUpdater\">\r\n    <option name=\"vcsConfiguration\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Web/.idea/projectSettingsUpdater.xml b/.idea/.idea.Web/.idea/projectSettingsUpdater.xml
+--- a/.idea/.idea.Web/.idea/projectSettingsUpdater.xml	(revision 9e846543b6621aca8b87373022e23af24bb93b17)
++++ b/.idea/.idea.Web/.idea/projectSettingsUpdater.xml	(date 1761582946514)
+@@ -1,6 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="RiderProjectSettingsUpdater">
++    <option name="singleClickDiffPreview" value="1" />
++    <option name="unhandledExceptionsIgnoreList" value="1" />
+     <option name="vcsConfiguration" value="3" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/.idea.Web/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"RunManager\" selected=\".NET Launch Settings Profile.Web: http\">\r\n    <configuration name=\"Web: http\" type=\"LaunchSettings\" factoryName=\".NET Launch Settings Profile\">\r\n      <option name=\"LAUNCH_PROFILE_PROJECT_FILE_PATH\" value=\"$PROJECT_DIR$/Web/Web.csproj\" />\r\n      <option name=\"LAUNCH_PROFILE_TFM\" value=\"net9.0\" />\r\n      <option name=\"LAUNCH_PROFILE_NAME\" value=\"http\" />\r\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\r\n      <option name=\"USE_MONO\" value=\"0\" />\r\n      <option name=\"RUNTIME_ARGUMENTS\" value=\"\" />\r\n      <option name=\"GENERATE_APPLICATIONHOST_CONFIG\" value=\"1\" />\r\n      <option name=\"SHOW_IIS_EXPRESS_OUTPUT\" value=\"0\" />\r\n      <option name=\"SEND_DEBUG_REQUEST\" value=\"1\" />\r\n      <option name=\"ADDITIONAL_IIS_EXPRESS_ARGUMENTS\" value=\"\" />\r\n      <method v=\"2\">\r\n        <option name=\"Build\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Web: https\" type=\"LaunchSettings\" factoryName=\".NET Launch Settings Profile\">\r\n      <option name=\"LAUNCH_PROFILE_PROJECT_FILE_PATH\" value=\"$PROJECT_DIR$/Web/Web.csproj\" />\r\n      <option name=\"LAUNCH_PROFILE_TFM\" value=\"net9.0\" />\r\n      <option name=\"LAUNCH_PROFILE_NAME\" value=\"https\" />\r\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\r\n      <option name=\"USE_MONO\" value=\"0\" />\r\n      <option name=\"RUNTIME_ARGUMENTS\" value=\"\" />\r\n      <option name=\"GENERATE_APPLICATIONHOST_CONFIG\" value=\"1\" />\r\n      <option name=\"SHOW_IIS_EXPRESS_OUTPUT\" value=\"0\" />\r\n      <option name=\"SEND_DEBUG_REQUEST\" value=\"1\" />\r\n      <option name=\"ADDITIONAL_IIS_EXPRESS_ARGUMENTS\" value=\"\" />\r\n      <method v=\"2\">\r\n        <option name=\"Build\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Web/.idea/workspace.xml b/.idea/.idea.Web/.idea/workspace.xml
+--- a/.idea/.idea.Web/.idea/workspace.xml	(revision 9e846543b6621aca8b87373022e23af24bb93b17)
++++ b/.idea/.idea.Web/.idea/workspace.xml	(date 1761582946507)
+@@ -12,6 +12,7 @@
+       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+       <option name="SEND_DEBUG_REQUEST" value="1" />
+       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
++      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+       <method v="2">
+         <option name="Build" />
+       </method>
+@@ -27,6 +28,7 @@
+       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+       <option name="SEND_DEBUG_REQUEST" value="1" />
+       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
++      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+       <method v="2">
+         <option name="Build" />
+       </method>
+Index: Web/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"version\": 3,\r\n  \"targets\": {\r\n    \"net9.0\": {\r\n      \"Microsoft.AspNetCore.OpenApi/9.0.2\": {\r\n        \"type\": \"package\",\r\n        \"dependencies\": {\r\n          \"Microsoft.OpenApi\": \"1.6.17\"\r\n        },\r\n        \"compile\": {\r\n          \"lib/net9.0/Microsoft.AspNetCore.OpenApi.dll\": {\r\n            \"related\": \".xml\"\r\n          }\r\n        },\r\n        \"runtime\": {\r\n          \"lib/net9.0/Microsoft.AspNetCore.OpenApi.dll\": {\r\n            \"related\": \".xml\"\r\n          }\r\n        },\r\n        \"frameworkReferences\": [\r\n          \"Microsoft.AspNetCore.App\"\r\n        ]\r\n      },\r\n      \"Microsoft.OpenApi/1.6.17\": {\r\n        \"type\": \"package\",\r\n        \"compile\": {\r\n          \"lib/netstandard2.0/Microsoft.OpenApi.dll\": {\r\n            \"related\": \".pdb;.xml\"\r\n          }\r\n        },\r\n        \"runtime\": {\r\n          \"lib/netstandard2.0/Microsoft.OpenApi.dll\": {\r\n            \"related\": \".pdb;.xml\"\r\n          }\r\n        }\r\n      }\r\n    }\r\n  },\r\n  \"libraries\": {\r\n    \"Microsoft.AspNetCore.OpenApi/9.0.2\": {\r\n      \"sha512\": \"JUndpjRNdG8GvzBLH/J4hen4ehWaPcshtiQ6+sUs1Bcj3a7dOsmWpDloDlpPeMOVSlhHwUJ3Xld0ClZjsFLgFQ==\",\r\n      \"type\": \"package\",\r\n      \"path\": \"microsoft.aspnetcore.openapi/9.0.2\",\r\n      \"files\": [\r\n        \".nupkg.metadata\",\r\n        \".signature.p7s\",\r\n        \"Icon.png\",\r\n        \"PACKAGE.md\",\r\n        \"THIRD-PARTY-NOTICES.TXT\",\r\n        \"lib/net9.0/Microsoft.AspNetCore.OpenApi.dll\",\r\n        \"lib/net9.0/Microsoft.AspNetCore.OpenApi.xml\",\r\n        \"microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512\",\r\n        \"microsoft.aspnetcore.openapi.nuspec\"\r\n      ]\r\n    },\r\n    \"Microsoft.OpenApi/1.6.17\": {\r\n      \"sha512\": \"Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==\",\r\n      \"type\": \"package\",\r\n      \"path\": \"microsoft.openapi/1.6.17\",\r\n      \"files\": [\r\n        \".nupkg.metadata\",\r\n        \".signature.p7s\",\r\n        \"README.md\",\r\n        \"lib/netstandard2.0/Microsoft.OpenApi.dll\",\r\n        \"lib/netstandard2.0/Microsoft.OpenApi.pdb\",\r\n        \"lib/netstandard2.0/Microsoft.OpenApi.xml\",\r\n        \"microsoft.openapi.1.6.17.nupkg.sha512\",\r\n        \"microsoft.openapi.nuspec\"\r\n      ]\r\n    }\r\n  },\r\n  \"projectFileDependencyGroups\": {\r\n    \"net9.0\": [\r\n      \"Microsoft.AspNetCore.OpenApi >= 9.0.2\"\r\n    ]\r\n  },\r\n  \"packageFolders\": {\r\n    \"/Users/ivanmihajlov/.nuget/packages/\": {}\r\n  },\r\n  \"project\": {\r\n    \"version\": \"1.0.0\",\r\n    \"restore\": {\r\n      \"projectUniqueName\": \"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj\",\r\n      \"projectName\": \"Web\",\r\n      \"projectPath\": \"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj\",\r\n      \"packagesPath\": \"/Users/ivanmihajlov/.nuget/packages/\",\r\n      \"outputPath\": \"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/obj/\",\r\n      \"projectStyle\": \"PackageReference\",\r\n      \"configFilePaths\": [\r\n        \"/Users/ivanmihajlov/.nuget/NuGet/NuGet.Config\"\r\n      ],\r\n      \"originalTargetFrameworks\": [\r\n        \"net9.0\"\r\n      ],\r\n      \"sources\": {\r\n        \"/usr/local/share/dotnet/library-packs\": {},\r\n        \"https://api.nuget.org/v3/index.json\": {}\r\n      },\r\n      \"frameworks\": {\r\n        \"net9.0\": {\r\n          \"targetAlias\": \"net9.0\",\r\n          \"projectReferences\": {}\r\n        }\r\n      },\r\n      \"warningProperties\": {\r\n        \"warnAsError\": [\r\n          \"NU1605\"\r\n        ]\r\n      },\r\n      \"restoreAuditProperties\": {\r\n        \"enableAudit\": \"true\",\r\n        \"auditLevel\": \"low\",\r\n        \"auditMode\": \"direct\"\r\n      }\r\n    },\r\n    \"frameworks\": {\r\n      \"net9.0\": {\r\n        \"targetAlias\": \"net9.0\",\r\n        \"dependencies\": {\r\n          \"Microsoft.AspNetCore.OpenApi\": {\r\n            \"target\": \"Package\",\r\n            \"version\": \"[9.0.2, )\"\r\n          }\r\n        },\r\n        \"imports\": [\r\n          \"net461\",\r\n          \"net462\",\r\n          \"net47\",\r\n          \"net471\",\r\n          \"net472\",\r\n          \"net48\",\r\n          \"net481\"\r\n        ],\r\n        \"assetTargetFallback\": true,\r\n        \"warn\": true,\r\n        \"frameworkReferences\": {\r\n          \"Microsoft.AspNetCore.App\": {\r\n            \"privateAssets\": \"none\"\r\n          },\r\n          \"Microsoft.NETCore.App\": {\r\n            \"privateAssets\": \"all\"\r\n          }\r\n        },\r\n        \"runtimeIdentifierGraphPath\": \"/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json\"\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Web/obj/project.assets.json b/Web/obj/project.assets.json
+--- a/Web/obj/project.assets.json	(revision 9e846543b6621aca8b87373022e23af24bb93b17)
++++ b/Web/obj/project.assets.json	(date 1761582918990)
+@@ -75,25 +75,31 @@
+     ]
+   },
+   "packageFolders": {
+-    "/Users/ivanmihajlov/.nuget/packages/": {}
++    "C:\\Users\\avost\\.nuget\\packages\\": {},
++    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj",
++      "projectUniqueName": "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\Web.csproj",
+       "projectName": "Web",
+-      "projectPath": "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj",
+-      "packagesPath": "/Users/ivanmihajlov/.nuget/packages/",
+-      "outputPath": "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/obj/",
++      "projectPath": "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\Web.csproj",
++      "packagesPath": "C:\\Users\\avost\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\obj\\",
+       "projectStyle": "PackageReference",
++      "fallbackFolders": [
++        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
++      ],
+       "configFilePaths": [
+-        "/Users/ivanmihajlov/.nuget/NuGet/NuGet.Config"
++        "C:\\Users\\avost\\AppData\\Roaming\\NuGet\\NuGet.Config",
++        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
++        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+       ],
+       "originalTargetFrameworks": [
+         "net9.0"
+       ],
+       "sources": {
+-        "/usr/local/share/dotnet/library-packs": {},
++        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+         "https://api.nuget.org/v3/index.json": {}
+       },
+       "frameworks": {
+@@ -111,7 +117,8 @@
+         "enableAudit": "true",
+         "auditLevel": "low",
+         "auditMode": "direct"
+-      }
++      },
++      "SdkAnalysisLevel": "9.0.300"
+     },
+     "frameworks": {
+       "net9.0": {
+@@ -141,7 +148,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+       }
+     }
+   }
+Index: Web/obj/Debug/net9.0/Web.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//------------------------------------------------------------------------------\r\n// <auto-generated>\r\n//     This code was generated by a tool.\r\n//\r\n//     Changes to this file may cause incorrect behavior and will be lost if\r\n//     the code is regenerated.\r\n// </auto-generated>\r\n//------------------------------------------------------------------------------\r\n\r\nusing System;\r\nusing System.Reflection;\r\n\r\n[assembly: System.Reflection.AssemblyCompanyAttribute(\"Web\")]\r\n[assembly: System.Reflection.AssemblyConfigurationAttribute(\"Debug\")]\r\n[assembly: System.Reflection.AssemblyFileVersionAttribute(\"1.0.0.0\")]\r\n[assembly: System.Reflection.AssemblyInformationalVersionAttribute(\"1.0.0+3ffb1357adee541fb42c44e09c641a489a3b2b3f\")]\r\n[assembly: System.Reflection.AssemblyProductAttribute(\"Web\")]\r\n[assembly: System.Reflection.AssemblyTitleAttribute(\"Web\")]\r\n[assembly: System.Reflection.AssemblyVersionAttribute(\"1.0.0.0\")]\r\n\r\n// Создано классом WriteCodeFragment MSBuild.\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Web/obj/Debug/net9.0/Web.AssemblyInfo.cs b/Web/obj/Debug/net9.0/Web.AssemblyInfo.cs
+--- a/Web/obj/Debug/net9.0/Web.AssemblyInfo.cs	(revision 9e846543b6621aca8b87373022e23af24bb93b17)
++++ b/Web/obj/Debug/net9.0/Web.AssemblyInfo.cs	(date 1761582895230)
+@@ -13,7 +13,7 @@
+ [assembly: System.Reflection.AssemblyCompanyAttribute("Web")]
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ffb1357adee541fb42c44e09c641a489a3b2b3f")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e846543b6621aca8b87373022e23af24bb93b17")]
+ [assembly: System.Reflection.AssemblyProductAttribute("Web")]
+ [assembly: System.Reflection.AssemblyTitleAttribute("Web")]
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+Index: Web/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj\",\"projectName\":\"Web\",\"projectPath\":\"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj\",\"outputPath\":\"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/obj/\",\"projectStyle\":\"PackageReference\",\"originalTargetFrameworks\":[\"net9.0\"],\"sources\":{\"/usr/local/share/dotnet/library-packs\":{},\"https://api.nuget.org/v3/index.json\":{}},\"frameworks\":{\"net9.0\":{\"targetAlias\":\"net9.0\",\"projectReferences\":{}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]},\"restoreAuditProperties\":{\"enableAudit\":\"true\",\"auditLevel\":\"low\",\"auditMode\":\"direct\"}}\"frameworks\":{\"net9.0\":{\"targetAlias\":\"net9.0\",\"dependencies\":{\"Microsoft.AspNetCore.OpenApi\":{\"target\":\"Package\",\"version\":\"[9.0.2, )\"}},\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"frameworkReferences\":{\"Microsoft.AspNetCore.App\":{\"privateAssets\":\"none\"},\"Microsoft.NETCore.App\":{\"privateAssets\":\"all\"}},\"runtimeIdentifierGraphPath\":\"/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Web/obj/project.packagespec.json b/Web/obj/project.packagespec.json
+--- a/Web/obj/project.packagespec.json	(revision 9e846543b6621aca8b87373022e23af24bb93b17)
++++ b/Web/obj/project.packagespec.json	(date 1761582897274)
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj","projectName":"Web","projectPath":"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj","outputPath":"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net9.0"],"sources":{"/usr/local/share/dotnet/library-packs":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net9.0":{"targetAlias":"net9.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]},"restoreAuditProperties":{"enableAudit":"true","auditLevel":"low","auditMode":"direct"}}"frameworks":{"net9.0":{"targetAlias":"net9.0","dependencies":{"Microsoft.AspNetCore.OpenApi":{"target":"Package","version":"[9.0.2, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\Web.csproj","projectName":"Web","projectPath":"C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\Web.csproj","outputPath":"C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"],"originalTargetFrameworks":["net9.0"],"sources":{"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net9.0":{"targetAlias":"net9.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]},"restoreAuditProperties":{"enableAudit":"true","auditLevel":"low","auditMode":"direct"},"SdkAnalysisLevel":"9.0.300"}"frameworks":{"net9.0":{"targetAlias":"net9.0","dependencies":{"Microsoft.AspNetCore.OpenApi":{"target":"Package","version":"[9.0.2, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: Web/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17615819228440090
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Web/obj/rider.project.restore.info b/Web/obj/rider.project.restore.info
+--- a/Web/obj/rider.project.restore.info	(revision 9e846543b6621aca8b87373022e23af24bb93b17)
++++ b/Web/obj/rider.project.restore.info	(date 1761582919021)
+@@ -1,1 +1,1 @@
+-17615819228440090
+\ No newline at end of file
++17615829190078467
+\ No newline at end of file
+Index: Web/obj/Web.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj\",\r\n        \"projectName\": \"Web\",\r\n        \"projectPath\": \"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj\",\r\n        \"packagesPath\": \"/Users/ivanmihajlov/.nuget/packages/\",\r\n        \"outputPath\": \"/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/obj/\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"configFilePaths\": [\r\n          \"/Users/ivanmihajlov/.nuget/NuGet/NuGet.Config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"net9.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"/usr/local/share/dotnet/library-packs\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"net9.0\": {\r\n            \"targetAlias\": \"net9.0\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        },\r\n        \"restoreAuditProperties\": {\r\n          \"enableAudit\": \"true\",\r\n          \"auditLevel\": \"low\",\r\n          \"auditMode\": \"direct\"\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"net9.0\": {\r\n          \"targetAlias\": \"net9.0\",\r\n          \"dependencies\": {\r\n            \"Microsoft.AspNetCore.OpenApi\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[9.0.2, )\"\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"frameworkReferences\": {\r\n            \"Microsoft.AspNetCore.App\": {\r\n              \"privateAssets\": \"none\"\r\n            },\r\n            \"Microsoft.NETCore.App\": {\r\n              \"privateAssets\": \"all\"\r\n            }\r\n          },\r\n          \"runtimeIdentifierGraphPath\": \"/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Web/obj/Web.csproj.nuget.dgspec.json b/Web/obj/Web.csproj.nuget.dgspec.json
+--- a/Web/obj/Web.csproj.nuget.dgspec.json	(revision 9e846543b6621aca8b87373022e23af24bb93b17)
++++ b/Web/obj/Web.csproj.nuget.dgspec.json	(date 1761582919007)
+@@ -1,26 +1,31 @@
+ {
+   "format": 1,
+   "restore": {
+-    "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj": {}
++    "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\Web.csproj": {}
+   },
+   "projects": {
+-    "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj": {
++    "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\Web.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj",
++        "projectUniqueName": "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\Web.csproj",
+         "projectName": "Web",
+-        "projectPath": "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/Web.csproj",
+-        "packagesPath": "/Users/ivanmihajlov/.nuget/packages/",
+-        "outputPath": "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/obj/",
++        "projectPath": "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\Web.csproj",
++        "packagesPath": "C:\\Users\\avost\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Web\\obj\\",
+         "projectStyle": "PackageReference",
++        "fallbackFolders": [
++          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
++        ],
+         "configFilePaths": [
+-          "/Users/ivanmihajlov/.nuget/NuGet/NuGet.Config"
++          "C:\\Users\\avost\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
++          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+         ],
+         "originalTargetFrameworks": [
+           "net9.0"
+         ],
+         "sources": {
+-          "/usr/local/share/dotnet/library-packs": {},
++          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "https://api.nuget.org/v3/index.json": {}
+         },
+         "frameworks": {
+@@ -38,7 +43,8 @@
+           "enableAudit": "true",
+           "auditLevel": "low",
+           "auditMode": "direct"
+-        }
++        },
++        "SdkAnalysisLevel": "9.0.300"
+       },
+       "frameworks": {
+         "net9.0": {
+@@ -68,7 +74,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: Web/obj/Debug/net9.0/Web.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.TargetFramework = net9.0\r\nbuild_property.TargetPlatformMinVersion = \r\nbuild_property.UsingMicrosoftNETSdkWeb = true\r\nbuild_property.ProjectTypeGuids = \r\nbuild_property.InvariantGlobalization = \r\nbuild_property.PlatformNeutralAssembly = \r\nbuild_property.EnforceExtendedAnalyzerRules = \r\nbuild_property._SupportedPlatformList = Linux,macOS,Windows\r\nbuild_property.RootNamespace = Web\r\nbuild_property.RootNamespace = Web\r\nbuild_property.ProjectDir = /Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/\r\nbuild_property.EnableComHosting = \r\nbuild_property.EnableGeneratedComInterfaceComImportInterop = \r\nbuild_property.RazorLangVersion = 9.0\r\nbuild_property.SupportLocalizedComponentNames = \r\nbuild_property.GenerateRazorMetadataSourceChecksumAttributes = \r\nbuild_property.MSBuildProjectDirectory = /Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web\r\nbuild_property._RazorSourceGeneratorDebug = \r\nbuild_property.EffectiveAnalysisLevelStyle = 9.0\r\nbuild_property.EnableCodeStyleSeverity = \r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Web/obj/Debug/net9.0/Web.GeneratedMSBuildEditorConfig.editorconfig b/Web/obj/Debug/net9.0/Web.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Web/obj/Debug/net9.0/Web.GeneratedMSBuildEditorConfig.editorconfig	(revision 9e846543b6621aca8b87373022e23af24bb93b17)
++++ b/Web/obj/Debug/net9.0/Web.GeneratedMSBuildEditorConfig.editorconfig	(date 1761582894972)
+@@ -9,13 +9,13 @@
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = Web
+ build_property.RootNamespace = Web
+-build_property.ProjectDir = /Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web/
++build_property.ProjectDir = C:\Users\avost\RiderProjects\ShareMusicApp\Web\Web\
+ build_property.EnableComHosting = 
+ build_property.EnableGeneratedComInterfaceComImportInterop = 
+ build_property.RazorLangVersion = 9.0
+ build_property.SupportLocalizedComponentNames = 
+ build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+-build_property.MSBuildProjectDirectory = /Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Web
++build_property.MSBuildProjectDirectory = C:\Users\avost\RiderProjects\ShareMusicApp\Web\Web
+ build_property._RazorSourceGeneratorDebug = 
+ build_property.EffectiveAnalysisLevelStyle = 9.0
+ build_property.EnableCodeStyleSeverity = 
+Index: Web/obj/Web.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\r\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\r\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\r\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">/Users/ivanmihajlov/.nuget/packages/</NuGetPackageRoot>\r\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">/Users/ivanmihajlov/.nuget/packages/</NuGetPackageFolders>\r\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\r\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.10.1</NuGetToolVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <SourceRoot Include=\"/Users/ivanmihajlov/.nuget/packages/\" />\r\n  </ItemGroup>\r\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Web/obj/Web.csproj.nuget.g.props b/Web/obj/Web.csproj.nuget.g.props
+--- a/Web/obj/Web.csproj.nuget.g.props	(revision 9e846543b6621aca8b87373022e23af24bb93b17)
++++ b/Web/obj/Web.csproj.nuget.g.props	(date 1761582918979)
+@@ -4,12 +4,13 @@
+     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/ivanmihajlov/.nuget/packages/</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/ivanmihajlov/.nuget/packages/</NuGetPackageFolders>
++    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\avost\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.1</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="/Users/ivanmihajlov/.nuget/packages/" />
++    <SourceRoot Include="C:\Users\avost\.nuget\packages\" />
++    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+   </ItemGroup>
+ </Project>
+\ No newline at end of file

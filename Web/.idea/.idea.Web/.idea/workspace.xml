@@ -11,8 +11,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb64f16-8ba7-4c1a-9133-f9c14c1f896a" name="Changes" comment="initial commit and push">
+      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Sharing/MusicPlatform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Sharing/Reaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Sharing/SharedTrack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Sharing/Track.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Users/Friendship.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Users/FriendshipStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Users/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Web/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Web.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/Wavy.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/Wavy.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/Wavy.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/Wavy.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/Wavy.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/Wavy.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wavy/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,42 +51,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "profitist"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;profitist&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/profitist/ShareMusicApp.git",
-    "accountId": "da5bc220-7c10-4d05-9cd6-431d653085ff"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/profitist/ShareMusicApp.git&quot;,
+    &quot;accountId&quot;: &quot;da5bc220-7c10-4d05-9cd6-431d653085ff&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Wavy/Src/Domain/Sharing/MusicPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wavy/Src/Domain/Sharing/Reaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wavy/Src/Domain/Sharing/SharedTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wavy/Src/Domain/Sharing/Track.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wavy/Src/Domain/Users/Friendship.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wavy/Src/Domain/Users/FriendshipStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wavy/Src/Domain/Users/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="34elSeYoW2pKFLg7YvD1WjKlGcB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Web: http">
     <configuration name="Wavy: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Wavy/Wavy.csproj" />
@@ -70,6 +106,7 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -85,6 +122,7 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -100,6 +138,7 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -115,6 +154,7 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -171,5 +211,23 @@
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="initial commit and push" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit and push" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

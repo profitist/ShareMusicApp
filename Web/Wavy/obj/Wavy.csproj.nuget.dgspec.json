@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Wavy/Wavy.csproj": {}
+    "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Wavy\\Wavy.csproj": {}
   },
   "projects": {
-    "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Wavy/Wavy.csproj": {
+    "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Wavy\\Wavy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Wavy/Wavy.csproj",
+        "projectUniqueName": "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Wavy\\Wavy.csproj",
         "projectName": "Wavy",
-        "projectPath": "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Wavy/Wavy.csproj",
-        "packagesPath": "/Users/ivanmihajlov/.nuget/packages/",
-        "outputPath": "/Users/ivanmihajlov/Desktop/ShareMusicApp/Web/Wavy/obj/",
+        "projectPath": "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Wavy\\Wavy.csproj",
+        "packagesPath": "C:\\Users\\avost\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avost\\RiderProjects\\ShareMusicApp\\Web\\Wavy\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/ivanmihajlov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\avost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -62,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
