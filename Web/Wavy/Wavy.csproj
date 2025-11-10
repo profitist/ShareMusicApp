@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Src\Application\" />
       <Folder Include="Src\Infrastructure\" />
       <Folder Include="Tests\" />
     </ItemGroup>

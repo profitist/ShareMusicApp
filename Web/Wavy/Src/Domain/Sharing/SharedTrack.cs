@@ -1,6 +1,9 @@
-﻿namespace Wavy.Domain.Sharing;
+﻿using Wavy.Domain.Core;
+using Wavy.Domain.Events;
 
-public class SharedTrack
+namespace Wavy.Domain.Sharing;
+
+public class SharedTrack : AggregateRoot
 {
     public Guid Id { get; private set; }
     public Guid SenderId { get; private set; }
@@ -13,13 +16,26 @@ public class SharedTrack
     private readonly List<Reaction> reactions = new();
     public IReadOnlyCollection<Reaction> Reactions => reactions.AsReadOnly();
 
-    public SharedTrack(Guid senderId, List<Guid> receiverId, Track track, string description)
+    public SharedTrack(Guid senderId, List<Guid> receiversId, Track track, string description)
     {
+        if (receiversId is null || receiversId.Count == 0)
+            throw new ArgumentException("There must be at least one receiver");
+        if (receiversId.Contains(senderId))
+            throw new InvalidOperationException("Sender cannot be the receiver");
         Id = Guid.NewGuid();
         SenderId = senderId;
-        ReceiversId = receiverId;
+        ReceiversId = receiversId;
         Track = track;
         Description = description;
         SentAt = DateTime.Now;
+        
+        AddDomainEvent(new TrackSharedEvent(Id, SenderId, ReceiversId));
+    }
+    
+    public void AddReaction(Reaction reaction)
+    {
+        if (reactions.Any(r => r.SenderId == reaction.SenderId))
+            return; 
+        reactions.Add(reaction);
     }
 }
