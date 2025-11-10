@@ -11,31 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb64f16-8ba7-4c1a-9133-f9c14c1f896a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Application/Abstractions/IFriendshipService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Application/DTOs/FriendshipDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Application/Services/FriendshipService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Abstractions/IFriendshipRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Abstractions/ISharedTrackRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Abstractions/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Abstractions/IUserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Core/AggregateRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Core/IDomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Events/FriendshipAcceptedEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Events/FriendshipDeclinedEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Events/TrackSharedEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Web/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2025_21_38_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Web/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2025_21_38__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wavy/Src/Domain/Sharing/SharedTrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Sharing/SharedTrack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wavy/Src/Domain/Users/Friendship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Users/Friendship.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wavy/Src/Domain/Users/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/Src/Domain/Users/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wavy/Wavy.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/Wavy.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/Debug/net9.0/Wavy.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wavy/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Wavy/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/net9.0/Web.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +160,7 @@
       <updated>1761581920364</updated>
       <workItem from="1761581921538" duration="1089000" />
       <workItem from="1762694758739" duration="7840000" />
-      <workItem from="1762792467849" duration="4614000" />
+      <workItem from="1762792467849" duration="5167000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <option name="closed" value="true" />
@@ -210,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761586584051</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implement domain and Friedship service">
+      <option name="closed" value="true" />
+      <created>1762797196449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762797196449</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +219,8 @@
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="initial commit and push" />
     <MESSAGE value="инишева коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="инишева коммит" />
+    <MESSAGE value="implement domain and Friedship service" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement domain and Friedship service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

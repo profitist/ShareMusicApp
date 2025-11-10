@@ -28,26 +28,5 @@ public class User : AggregateRoot
         PhoneNumber = newPhoneNumber;
         ProfilePictureUrl = newProfilePictureUrl;
         Email = newEmail;
-
-    }
-
-    public Friendship SendFriendRequest(Guid friendId)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void AcceptFriendRequest(Friendship friendshipRequest)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void DeclineFriendRequest(Friendship friendshipRequest)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void RemoveFriend(Guid friendId)
-    {
-        throw new NotImplementedException();
     }
 }
