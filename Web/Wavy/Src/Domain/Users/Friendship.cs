@@ -1,17 +1,23 @@
-﻿namespace Wavy.Domain.Users;
+﻿using Wavy.Domain.Core;
+using Wavy.Domain.Events;
 
-public class Friendship
+
+namespace Wavy.Domain.Users;
+
+public class Friendship : AggregateRoot
 {
-    public Guid Friend1Id { get; private set; }
-    public Guid Friend2Id { get; private set; }
+    public Guid Id { get; private set; }
+    public Guid RequesterId { get; private set; }
+    public Guid AddresserId { get; private set; }
     public FriendshipStatus Status { get; private set; }
     public DateTime CreatedAt { get; private set; }
     public DateTime ModifiedAt { get; private set; }
 
-    public Friendship(Guid friend1Id, Guid friend2Id)
+    public Friendship(Guid requesterId, Guid addresserId)
     {
-        Friend1Id = friend1Id;
-        Friend2Id = friend2Id;
+        Id = Guid.NewGuid();
+        RequesterId = requesterId;
+        AddresserId = addresserId;
         Status = FriendshipStatus.Pending;
         CreatedAt = DateTime.UtcNow;
         ModifiedAt = DateTime.UtcNow;
@@ -19,15 +25,19 @@ public class Friendship
 
     public void Accept()
     {
+        if(Status != FriendshipStatus.Pending)
+            throw new InvalidOperationException("Cannot accept a friendship that is not pending");
         Status = FriendshipStatus.Accepted;
         ModifiedAt = DateTime.UtcNow;
-        //??
+        AddDomainEvent(new FriendshipAcceptedEvent(Id, RequesterId, AddresserId));
     }
 
     public void Decline()
     {
+        if (Status != FriendshipStatus.Pending)
+            throw new InvalidOperationException("Cannot decline a friendship that is not in pending");
         Status = FriendshipStatus.Declined;
         ModifiedAt = DateTime.UtcNow;
-        //??
+        AddDomainEvent(new FriendshipDeclinedEvent(Id, RequesterId, AddresserId));
     }
 }
