@@ -7,8 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Src\Infrastructure\" />
+      <Folder Include="Src\Infrastructure\Persistence\Configurations\" />
+      <Folder Include="Src\Infrastructure\Persistence\DbContexts\" />
       <Folder Include="Tests\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.0" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.15.0" />
     </ItemGroup>
 
 </Project>

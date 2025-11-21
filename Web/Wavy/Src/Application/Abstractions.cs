@@ -10,3 +10,14 @@ public interface IFriendshipService
     Task RemoveFriendAsync(Guid friendshipId, Guid currentUserId, CancellationToken cancellationToken = default);
     Task<IEnumerable<FriendshipDto>> GetFriendshipsAsync(Guid userId, CancellationToken cancellationToken = default);
 }
+
+public interface IPasswordHasher
+{
+    string Hash(string password);
+    bool Verify(string password, string hashedPassword);
+}
+
+public interface IJwtTokenGenerator
+{
+    string GenerateToken(Domain.Users.User user);
+}
